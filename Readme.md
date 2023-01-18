@@ -14,8 +14,9 @@ https://support.google.com/mail/answer/185833?hl=en-GB
 
 ## So how to make it work?
 **B**
-1. Prepare your excel sheet
-2. Open config file(configfile.ini)
+1. Download the zip file of this repo 
+2. Prepare your excel sheet
+3. Open config file(configfile.ini)
    1. Set staticPosCell(Col) and iterativePosCell (row) for *Birthday* cell
         Enter the position of beginning cell with values under the *Birthday* column. E.g. Cell B2 (Row = 2, Column = 2) might be where the first values of the column *Birthday* begins.
    2. Set staticFinCell (Column) for *Name* cell
@@ -23,6 +24,6 @@ https://support.google.com/mail/answer/185833?hl=en-GB
    3. Set sheetname as the name of the excel sheet
    4. Set emailID and emailPWD(Do not use personal password; refer to **A2**) for sender
    5. Set emailSender for recepient
-3. Share *editor* access of the sheet to the below email ID.
+4. Share *editor* access of the sheet to the below email ID.
 test-sheet-for-email-reminder@email-gsheet-reminder.iam.gserviceaccount.com
-4. Run it
+5. Run it
